@@ -1,0 +1,77 @@
+CREATE TABLE CTmau (
+  MaMau CHAR(4) REFERENCES MauSac(MaMau),
+  MaSP CHAR(7) REFERENCES SanPham(MaSP),
+  SoLuong INT NOT NULL
+);
+select * from CTmau
+
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M01', 'SP01', 5);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M02', 'SP01', 6);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M03', 'SP01', 13);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M04', 'SP01', 11);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M05', 'SP01', 10);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M06', 'SP01', 5);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M01', 'SP02', 6);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M02', 'SP02', 10);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M03', 'SP02', 12);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M04', 'SP02', 16);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M05', 'SP02', 8);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M06', 'SP02', 8);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M01', 'SP03', 8);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M02', 'SP03', 18);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M03', 'SP03', 10);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M04', 'SP03', 15);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M05', 'SP03', 7);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M06', 'SP03', 9);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M01', 'SP04', 15);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M02', 'SP04', 10);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M03', 'SP04', 13);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M04', 'SP04', 11);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M05', 'SP04', 5);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M01', 'SP05', 0);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M02', 'SP05', 2);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M03', 'SP05', 7);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M04', 'SP05', 6);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M05', 'SP05', 0);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M01', 'SP06', 0);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M02', 'SP06', 2);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M03', 'SP06', 2);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M04', 'SP06', 1);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M05', 'SP06', 0);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M06', 'SP06', 1);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M01', 'SP07', 3);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M02', 'SP07', 0);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M03', 'SP07', 4);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M04', 'SP07', 4);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M05', 'SP07', 1);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M06', 'SP07', 1);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M01', 'SP08', 5);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M02', 'SP08', 9);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M03', 'SP08', 13);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M04', 'SP08', 7);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M05', 'SP08', 5);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M06', 'SP08', 6);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M01', 'SP09', 0);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M02', 'SP09', 0);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M03', 'SP09', 3);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M04', 'SP09', 2);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M05', 'SP09', 2);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M06', 'SP09', 0);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M01', 'SP10', 7);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M02', 'SP10', 5);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M03', 'SP10', 10);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M04', 'SP10', 9);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M05', 'SP10', 2);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M06', 'SP10', 2);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M01', 'SP11', 13);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M02', 'SP11', 7);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M03', 'SP11', 7);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M04', 'SP11', 8);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M05', 'SP11', 5);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M06', 'SP11', 6);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M01', 'SP12', 0);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M02', 'SP12', 1);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M03', 'SP12', 2);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M04', 'SP12', 2);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M05', 'SP12', 0);
+INSERT INTO CTmau (MaMau, MaSP, SoLuong) VALUES ('M06', 'SP12', 0);
